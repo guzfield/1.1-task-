@@ -6,7 +6,6 @@ function solveEquation(a, b, c) {
   if (discriminant < 0) {
     return [];
   }
-  
 
   if (discriminant === 0) {
     const root = -b / (2 * a);
